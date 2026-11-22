@@ -7,6 +7,16 @@
 - Previously: University of Malta, EU Horizon **RIVIERA** project
 - Author of ***It Worked in the Demo*** (2026), on why AI projects stall between pilot and production
 
+## Production patterns (open source)
+
+Generic, tested versions of patterns I run in production. No client code or data.
+
+| Project | What it does |
+|---|---|
+| **[missed-call-recovery-agent](https://github.com/autmationsolution-a11y/missed-call-recovery-agent)** | A missed call becomes a WhatsApp conversation and a proposed booking. Staff approve every booking; the model cannot write to the calendar or invent a price. |
+| **[llm-release-gate](https://github.com/autmationsolution-a11y/llm-release-gate)** | Release gating for LLM agents: test cases, baselines and a policy file. A failing evaluation blocks the deploy. |
+| **[form-fill-engine](https://github.com/autmationsolution-a11y/form-fill-engine)** | Fills partner PDF forms from client records, validates every field, and releases nothing without a second person's approval and an audit hash. |
+
 ## What I'm building
 
 | Project | What it is | Status |
